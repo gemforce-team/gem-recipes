@@ -83,3 +83,4 @@ Equations:
 (val = 1487)	73 = 72 + 56
 (val = 2048)	74 = 73 + 35
 
+lc0002048 - gemforce v2.0.0 - table_leech

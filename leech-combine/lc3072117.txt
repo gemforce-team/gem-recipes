@@ -273,4 +273,4 @@ Equations:
 (val = 2214228)	264 = 263 + 148
 (val = 3072117)	265 = 264 + 149
 
-lc4194304u - gemforce v1.8.0 - table_leech
+lc3072117 - gemforce v2.0.0 - table_leech

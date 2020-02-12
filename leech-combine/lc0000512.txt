@@ -58,3 +58,4 @@ Equations:
 (val = 366)	48 = 47 + 34
 (val = 512)	49 = 48 + 28
 
+lc0000512 - gemforce v2.0.0 - table_leech

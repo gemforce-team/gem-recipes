@@ -63,3 +63,4 @@ Equations:
 (val = 732)	53 = 52 + 38
 (val = 1024)	54 = 53 + 39
 
+lc0001024 - gemforce v2.0.0 - table_leech

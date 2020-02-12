@@ -1,3 +1,5 @@
+Best gem up to 262144:
+
 Value:	262144
 Growth:	0.503906
 Grade:	17
@@ -444,3 +446,4 @@ Equations:
 (val = 183807)	437 = 436 + 350
 (val = 262144)	438 = 437 + 316
 
+lc0262144 - gemforce v2.0.0 - table_leech

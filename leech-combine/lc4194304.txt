@@ -1254,4 +1254,4 @@ Equations:
 (val = 3037393)	1247 = 1246 + 1038
 (val = 4194304)	1248 = 1247 + 815
 
-lc4194304 - gemforce v1.8.0 - table_leech
+lc4194304 - gemforce v2.0.0 - table_leech

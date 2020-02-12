@@ -648,3 +648,4 @@ Equations:
 (val = 1478604)	641 = 640 + 443
 (val = 2097152)	642 = 641 + 235
 
+lc2097152 - gemforce v2.0.0 - table_leech

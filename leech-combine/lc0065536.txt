@@ -1,3 +1,5 @@
+Best gem up to 65536:
+
 Value:	65536
 Growth:	0.503367
 Grade:	15
@@ -186,3 +188,4 @@ Equations:
 (val = 46547)	179 = 178 + 78
 (val = 65536)	180 = 179 + 79
 
+lc0065536 - gemforce v2.0.0 - table_leech

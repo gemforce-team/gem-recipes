@@ -1,3 +1,5 @@
+Best gem up to 4096:
+
 Value:	4096
 Growth:	0.501448
 Grade:	11
@@ -131,3 +133,4 @@ Equations:
 (val = 2906)	121 = 120 + 59
 (val = 4096)	122 = 121 + 60
 
+lc0004096 - gemforce v2.0.0 - table_leech

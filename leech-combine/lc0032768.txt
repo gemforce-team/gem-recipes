@@ -1,3 +1,5 @@
+Best gem up to 32768:
+
 Value:	32768
 Growth:	0.502948
 Grade:	14
@@ -189,3 +191,4 @@ Equations:
 (val = 23200)	182 = 181 + 149
 (val = 32768)	183 = 182 + 113
 
+lc0032768 - gemforce v2.0.0 - table_leech

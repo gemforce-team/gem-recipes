@@ -53,3 +53,4 @@ Equations:
 (val = 712)	41 = 40 + 30
 (val = 990)	42 = 41 + 31
 
+lc0000990 - gemforce v2.0.0 - table_leech

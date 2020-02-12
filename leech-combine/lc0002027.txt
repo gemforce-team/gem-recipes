@@ -58,3 +58,4 @@ Equations:
 (val = 1466)	46 = 45 + 34
 (val = 2027)	47 = 46 + 35
 
+lc0002027 - gemforce v2.0.0 - table_leech
