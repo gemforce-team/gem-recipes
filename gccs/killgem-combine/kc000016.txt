@@ -9,39 +9,6 @@ Power:	50.431240
 Compressed combining scheme:
 (((((((2k+k)+k)+k)+k)+2k)+(2k+k))+((2k+k)+2k))
 
-Gem tree:
-─16
- ├─11
- │ ├─8
- │ │ ├─6
- │ │ │ ├─5
- │ │ │ │ ├─4
- │ │ │ │ │ ├─3
- │ │ │ │ │ │ ├─2
- │ │ │ │ │ │ │ ├─ g1 k
- │ │ │ │ │ │ │ └─ g1 k
- │ │ │ │ │ │ └─ g1 k
- │ │ │ │ │ └─ g1 k
- │ │ │ │ └─ g1 k
- │ │ │ └─ g1 k
- │ │ └─2
- │ │   ├─ g1 k
- │ │   └─ g1 k
- │ └─3
- │   ├─2
- │   │ ├─ g1 k
- │   │ └─ g1 k
- │   └─ g1 k
- └─5
-   ├─3
-   │ ├─2
-   │ │ ├─ g1 k
-   │ │ └─ g1 k
-   │ └─ g1 k
-   └─2
-     ├─ g1 k
-     └─ g1 k
-
 Equations:
 (val = 1)	 0 = g1 k
 (val = 2)	 1 =  0 +  0
@@ -54,4 +21,4 @@ Equations:
 (val = 11)	 8 =  7 +  2
 (val = 16)	 9 =  8 +  3
 
-kc000016 - gemforce v1.7.2 - table_kgcexact
+kc000016 - gemforce v2.0.0 - table_kgcexact

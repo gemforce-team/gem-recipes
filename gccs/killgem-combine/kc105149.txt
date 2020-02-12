@@ -337,4 +337,4 @@ Equations:
 (val = 70630)	325 = 324 + 201
 (val = 105149)	326 = 325 + 194
 
-kc131072u - gemforce v1.7.3a - table_kgc6
+kc105149 - gemforce v2.0.0 - table_kgcomb

@@ -1,3 +1,5 @@
+Best gem up to 1024:
+
 Value:	1024
 Growth:	1.437381
 Grade:	10
@@ -80,4 +82,4 @@ Equations:
 (val = 662)	67 = 66 + 44
 (val = 1024)	68 = 67 + 33
 
-kc001024 - gemforce v1.7.3a - table_kgc6
+kc001024 - gemforce v2.0.0 - table_kgcomb

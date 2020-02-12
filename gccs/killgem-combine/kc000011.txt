@@ -11,29 +11,6 @@ Power:	29.910547
 Compressed combining scheme:
 (((((2k+k)+k)+k)+2k)+3k)
 
-Gem tree:
-─11
- ├─7
- │ ├─5
- │ │ ├─4
- │ │ │ ├─3
- │ │ │ │ ├─2
- │ │ │ │ │ ├─ g1 k
- │ │ │ │ │ └─ g1 k
- │ │ │ │ └─ g1 k
- │ │ │ └─ g1 k
- │ │ └─ g1 k
- │ └─2
- │   ├─ g1 k
- │   └─ g1 k
- └─4
-   ├─2
-   │ ├─ g1 k
-   │ └─ g1 k
-   └─2
-     ├─ g1 k
-     └─ g1 k
-
 Equations:
 (val = 1)	 0 = g1 k
 (val = 2)	 1 =  0 +  0
@@ -44,4 +21,4 @@ Equations:
 (val = 7)	 6 =  5 +  1
 (val = 11)	 7 =  6 +  2
 
-kc000016u - gemforce v1.7.2 - table_kgcexact
+kc000011 - gemforce v2.0.0 - table_kgcexact

@@ -505,4 +505,4 @@ Equations:
 (val = 89384)	495 = 494 + 348
 (val = 131072)	496 = 495 + 294
 
-kc131072 - gemforce v1.7.3a - table_kgc6
+kc131072 - gemforce v2.0.0 - table_kgcomb

@@ -171,4 +171,4 @@ Equations:
 (val = 16168)	159 = 158 + 101
 (val = 24157)	160 = 159 + 102
 
-kc032768u - gemforce v1.7.3a - table_kgc6
+kc024157 - gemforce v2.0.0 - table_kgcomb

@@ -720,4 +720,4 @@ Equations:
 (val = 178341)	710 = 709 + 469
 (val = 262144)	711 = 710 + 348
 
-kc262144 - gemforce v1.7.3a - table_kgc6
+kc262144 - gemforce v2.0.0 - table_kgcomb

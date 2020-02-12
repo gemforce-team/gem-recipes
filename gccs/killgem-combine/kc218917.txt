@@ -391,4 +391,4 @@ Equations:
 (val = 147653)	379 = 378 + 262
 (val = 218917)	380 = 379 + 228
 
-kc262144u - gemforce v1.7.3a - table_kgc6
+kc218917 - gemforce v2.0.0 - table_kgcomb

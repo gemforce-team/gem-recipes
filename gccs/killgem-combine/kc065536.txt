@@ -380,4 +380,4 @@ Equations:
 (val = 44920)	370 = 369 + 288
 (val = 65536)	371 = 370 + 243
 
-kc065536 - gemforce v1.7.3a - table_kgc6
+kc065536 - gemforce v2.0.0 - table_kgcomb

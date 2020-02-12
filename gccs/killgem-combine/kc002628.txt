@@ -100,4 +100,4 @@ Equations:
 (val = 1751)	85 = 84 + 62
 (val = 2628)	86 = 85 + 55
 
-kc004096u - gemforce v1.7.3a - table_kgc6
+kc002628 - gemforce v2.0.0 - table_kgcomb

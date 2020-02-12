@@ -1,3 +1,5 @@
+Best gem up to 512:
+
 Value:	512
 Growth:	1.435661
 Grade:	9
@@ -61,4 +63,4 @@ Equations:
 (val = 331)	48 = 47 + 29
 (val = 512)	49 = 48 + 30
 
-kc000512 - gemforce v1.8.0 - table_kgcexact
+kc000512 - gemforce v2.0.0 - table_kgcexact

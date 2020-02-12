@@ -1,3 +1,5 @@
+Best gem up to 2048:
+
 Value:	2048
 Growth:	1.438582
 Grade:	11
@@ -79,4 +81,4 @@ Equations:
 (val = 1327)	66 = 65 + 41
 (val = 2048)	67 = 66 + 42
 
-kc002048 - gemforce v1.7.3a - table_kgc6
+kc002048 - gemforce v2.0.0 - table_kgcomb

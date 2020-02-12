@@ -100,4 +100,4 @@ Equations:
 (val = 2623)	87 = 86 + 58
 (val = 4096)	88 = 87 + 59
 
-kc004096 - gemforce v1.7.3a - table_kgc6
+kc004096 - gemforce v2.0.0 - table_kgcomb

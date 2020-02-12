@@ -326,4 +326,4 @@ Equations:
 (val = 22273)	316 = 315 + 240
 (val = 32768)	317 = 316 + 178
 
-kc032768 - gemforce v1.7.3a - table_kgc6
+kc032768 - gemforce v2.0.0 - table_kgcomb
