@@ -8,14 +8,14 @@ Crit:	13.498951
 Bbound:	2.201252
 Power:	4583.239258
 
-Amplifier (x8)
+Amplifier (x8@1.0)
 Value:	25
 Grade:	5
 Damage:	8.450256
 Crit:	4.774916
 Power:	40.349262
 
-Spec base power w. red:	12478.88
+Spec base power w. chain:	12478.88
 Spec coefficient:	1.155034
 
 Killgem speccing scheme:
@@ -123,4 +123,4 @@ Amplifier equations:
 (val = 16)	11 = 10 +  4
 (val = 25)	12 = 11 +  5
 
-ka0512 - N8 TC120 A60 - gemforce v1.8.1 - table_kgssemi,table_crit
+ka0512-25 - AMPS8-1 TC120 A60 - gemforce v2.0.0 - table_kgssemi,table_crit

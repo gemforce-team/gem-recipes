@@ -8,14 +8,14 @@ Crit:	2.300354
 Bbound:	1.504110
 Power:	58.769421
 
-Amplifier (x8)
+Amplifier (x8@1.0)
 Value:	2
 Grade:	2
 Damage:	1.580000
 Crit:	1.380000
 Power:	2.180400
 
-Spec base power w. red:	227.5191
+Spec base power w. chain:	227.5191
 Spec coefficient:	0.954202
 
 Killgem speccing scheme:
@@ -23,76 +23,6 @@ Killgem speccing scheme:
 
 Amplifier speccing scheme:
 2y
-
-Killgem tree:
-─32
- ├─18
- │ ├─11
- │ │ ├─8
- │ │ │ ├─5
- │ │ │ │ ├─4
- │ │ │ │ │ ├─3
- │ │ │ │ │ │ ├─2
- │ │ │ │ │ │ │ ├─ g1 b
- │ │ │ │ │ │ │ └─ g1 b
- │ │ │ │ │ │ └─ g1 b
- │ │ │ │ │ └─ g1 b
- │ │ │ │ └─ g1 b
- │ │ │ └─3
- │ │ │   ├─2
- │ │ │   │ ├─ g1 b
- │ │ │   │ └─ g1 b
- │ │ │   └─ g1 b
- │ │ └─3
- │ │   ├─2
- │ │   │ ├─ g1 b
- │ │   │ └─ g1 b
- │ │   └─ g1 b
- │ └─7
- │   ├─4
- │   │ ├─3
- │   │ │ ├─2
- │   │ │ │ ├─ g1 r
- │   │ │ │ └─ g1 b
- │   │ │ └─ g1 y
- │   │ └─ g1 b
- │   └─3
- │     ├─2
- │     │ ├─ g1 b
- │     │ └─ g1 b
- │     └─ g1 b
- └─14
-   ├─9
-   │ ├─6
-   │ │ ├─4
-   │ │ │ ├─3
-   │ │ │ │ ├─2
-   │ │ │ │ │ ├─ g1 y
-   │ │ │ │ │ └─ g1 y
-   │ │ │ │ └─ g1 y
-   │ │ │ └─ g1 y
-   │ │ └─2
-   │ │   ├─ g1 y
-   │ │   └─ g1 b
-   │ └─3
-   │   ├─2
-   │   │ ├─ g1 y
-   │   │ └─ g1 b
-   │   └─ g1 b
-   └─5
-     ├─3
-     │ ├─2
-     │ │ ├─ g1 y
-     │ │ └─ g1 b
-     │ └─ g1 b
-     └─2
-       ├─ g1 b
-       └─ g1 b
-
-Amplifier tree:
-─2
- ├─ g1 y
- └─ g1 y
 
 Killgem equations:
 (val = 1)	 0 = g1 b
@@ -124,4 +54,4 @@ Amplifier equations:
 (val = 1)	 0 = g1 y
 (val = 2)	 1 =  0 +  0
 
-ka0032 - N8 TC120 A60 - gemforce v1.8.1 - table_kgsexact,table_crit
+ka0032-2 - AMPS8-1 TC120 A60 - gemforce v2.0.0 - table_kgsexact,table_crit
