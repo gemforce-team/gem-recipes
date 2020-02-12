@@ -1,0 +1,22 @@
+Value:	1024
+Growth:	0.214125
+Grade:	11
+Bleed:	4.411435
+
+Compressed combining scheme:
+11r
+
+Equations:
+(val = 1)	 0 = g1 r
+(val = 2)	 1 =  0 +  0
+(val = 4)	 2 =  1 +  1
+(val = 8)	 3 =  2 +  2
+(val = 16)	 4 =  3 +  3
+(val = 32)	 5 =  4 +  4
+(val = 64)	 6 =  5 +  5
+(val = 128)	 7 =  6 +  6
+(val = 256)	 8 =  7 +  7
+(val = 512)	 9 =  8 +  8
+(val = 1024)	10 =  9 +  9
+
+bc0001024 - gemforce v2.0.0 - table_bleed
