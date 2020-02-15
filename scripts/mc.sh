@@ -1,31 +1,36 @@
 #!/bin/bash
+
+source "$(dirname $0)/base.sh"
+
 inf=$1
 sup=$2
-file=$3
+table=$3
+
+FOLDER=gccs/managem-combine
+TABLES="${table}"
+TABLE_FILES="${TABLE_DIR}/${table}"
+
+name_move() {
+	gsize=$(< tmp sed -n "${2}p" | tr -dc '0-9')
+	filename=mc$(printf "%0.6d" ${gsize})
+	echo "$filename - gemforce ${GEMFORCE_VER} - ${TABLES}" >> $1
+	mv $1 "${FOLDER}/$filename.txt"
+}
 
 for ((i=inf; i<=sup; i*=2))
 do
 	echo $i
-	filename="mc"$(printf "%0.6d" $i)
-	filenameu="mc"$(printf "%0.6d" $i)"u"
-	desc="$filename - gemforce $(git describe --tags | cut -f1 -d "-") - $file"
-	descu="$filenameu - gemforce $(git describe --tags | cut -f1 -d "-") - $file"
-	if [ $i -le 256 ]
+	
+	if [ $i -le 4096 ]
 	then
-		bin/mgquery-alone -qpte  -f "$file" "$i"c | tail -n +4 > results/$filename".txt"
-		echo "$desc" >> results/$filename".txt"
-		bin/mgquery-alone -qupte -f "$file" "$i"c | tail -n +11 > results/$filenameu".txt"
-		echo "$descu" >> results/$filenameu".txt"
-	elif [ $i -le 16384 ]
-	then
-		bin/mgquery-alone -qpe  -f "$file" "$i"c | tail -n +4 > results/$filename".txt"
-		echo "$desc" >> results/$filename".txt"
-		bin/mgquery-alone -qupe -f "$file" "$i"c | tail -n +11 > results/$filenameu".txt"
-		echo "$descu" >> results/$filenameu".txt"
+		${GEMFORCE_DIR}/bin/mgquery-alone -qpe -f "${TABLE_FILES}" "$i"c | tail -n +4 > tmp
+		name_move tmp 1
+		${GEMFORCE_DIR}/bin/mgquery-alone -qpeu -f "${TABLE_FILES}" "$i"c | tail -n +11 > tmp
+		name_move tmp 3
 	else
-		bin/mgquery-alone -qe  -f "$file" "$i"c | tail -n +4 > results/$filename".txt"
-		echo "$desc" >> results/$filename".txt"
-		bin/mgquery-alone -que -f "$file" "$i"c | tail -n +11 > results/$filenameu".txt"
-		echo "$descu" >> results/$filenameu".txt"
+		${GEMFORCE_DIR}/bin/mgquery-alone -qe -f "${TABLE_FILES}" "$i"c | tail -n +4 > tmp
+		name_move tmp 1
+		${GEMFORCE_DIR}/bin/mgquery-alone -qeu -f "${TABLE_FILES}" "$i"c | tail -n +11 > tmp
+		name_move tmp 3
 	fi
 done

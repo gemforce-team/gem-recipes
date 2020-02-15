@@ -1,3 +1,5 @@
+Best gem up to 32768:
+
 Value:	32768
 Growth:	0.644252
 Grade:	14
@@ -234,4 +236,4 @@ Equations:
 (val = 23257)	225 = 224 + 175
 (val = 32768)	226 = 225 + 136
 
-mc032768 - gemforce v1.7.3a - table_mgc6
+mc032768 - gemforce v2.0.0 - table_mgcomb

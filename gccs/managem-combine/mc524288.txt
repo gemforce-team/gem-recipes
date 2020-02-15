@@ -1,3 +1,5 @@
+Best gem up to 524288:
+
 Value:	524288
 Growth:	0.645982
 Grade:	18
@@ -873,4 +875,4 @@ Equations:
 (val = 369266)	864 = 863 + 593
 (val = 524288)	865 = 864 + 466
 
-mc524288 - gemforce v1.8.1 - table_mgcomb
+mc524288 - gemforce v2.0.0 - table_mgcomb

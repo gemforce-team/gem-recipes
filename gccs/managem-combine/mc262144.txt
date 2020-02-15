@@ -1,3 +1,5 @@
+Best gem up to 262144:
+
 Value:	262144
 Growth:	0.645635
 Grade:	17
@@ -335,4 +337,4 @@ Equations:
 (val = 184239)	326 = 325 + 249
 (val = 262144)	327 = 326 + 193
 
-mc262144 - gemforce v1.7.3a - table_mgc6
+mc262144 - gemforce v2.0.0 - table_mgcomb
