@@ -1,0 +1,27 @@
+Value:	32
+Growth:	1.148153
+Grade:	5
+Damage:	9.931049
+Crit:	5.384522
+Power:	53.473957
+
+Compressed combining scheme:
+((((((((2y+y)+y)+2y)+2y)+(2y+y))+((2y+y)+y))+(((2y+y)+y)+2y))+(((((2y+y)+y)+y)+2y)+3y))
+
+Equations:
+(val = 1)	 0 = g1 y
+(val = 2)	 1 =  0 +  0
+(val = 4)	 2 =  1 +  1
+(val = 3)	 3 =  1 +  0
+(val = 4)	 4 =  3 +  0
+(val = 5)	 5 =  4 +  0
+(val = 7)	 6 =  5 +  1
+(val = 11)	 7 =  6 +  2
+(val = 6)	 8 =  4 +  1
+(val = 8)	 9 =  8 +  1
+(val = 11)	10 =  9 +  3
+(val = 15)	11 = 10 +  4
+(val = 21)	12 = 11 +  8
+(val = 32)	13 = 12 +  7
+
+cc0000032 - gemforce v2.0.0 - table_crit
