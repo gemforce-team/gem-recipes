@@ -7,12 +7,12 @@ Leech:	1.528321
 Bbound:	1.093100
 Power:	1.670608
 
-Amplifier (x6)
+Amplifier (x6@1.0)
 Value:	1
 Grade:	1
 Leech:	1.000000
 
-Spec base power w. red:	4.446207
+Spec base power w. chain:	4.446207
 Spec coefficient:	0.849415
 
 Managem speccing scheme:
@@ -20,26 +20,6 @@ Managem speccing scheme:
 
 Amplifier speccing scheme:
 o
-
-Managem tree:
-─8
- ├─6
- │ ├─5
- │ │ ├─3
- │ │ │ ├─2
- │ │ │ │ ├─ g1 o
- │ │ │ │ └─ g1 o
- │ │ │ └─ g1 o
- │ │ └─2
- │ │   ├─ g1 o
- │ │   └─ g1 r
- │ └─ g1 b
- └─2
-   ├─ g1 b
-   └─ g1 b
-
-Amplifier tree:
-─ g1 o
 
 Managem equations:
 (val = 1)	 0 = g1 b
@@ -56,4 +36,4 @@ Managem equations:
 Amplifier equations:
 (val = 1)	 0 = g1 o
 
-ma0008 - N6 TC120 A60 - gemforce v1.7.0-38 - table_mgsexact,table_leech
+ma0008-1 - AMPS6-1 TC120 A60 - gemforce v2.0.0 - table_mgsexact,table_leech
