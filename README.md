@@ -1,6 +1,9 @@
 Gem Recipes
 ===========
 
+Optimal gem recipes for [Gemcraft 2: Chasing Shadows](https://store.steampowered.com/app/296490/GemCraft__Chasing_Shadows/) and
+[GemCraft: Frostborn Wrath](https://store.steampowered.com/app/1106530/GemCraft__Frostborn_Wrath/).
+
 ### Table of contents:
 
 * **[Link to the recipe calculator program](https://github.com/gemforce-team/gem-recipes/#readme)**
