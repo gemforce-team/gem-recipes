@@ -6,7 +6,7 @@ Optimal gem recipes for [Gemcraft 2: Chasing Shadows](https://store.steampowered
 
 ### Table of contents:
 
-* **[Link to the recipe calculator program](https://github.com/gemforce-team/gem-recipes/#readme)**
+* **[Link to the recipe calculator program](https://github.com/gemforce-team/gemforce/#readme)**
 * **[Link to the GCCS combiner bot (wGemCombiner)](https://github.com/gemforce-team/wGemCombiner/#readme)**
 * **[Link to the GCFW combiner mod (Gemsmith)](https://github.com/gemforce-team/gemsmith/#readme)**
 * [Results naming convention](#results-naming-convention)  
