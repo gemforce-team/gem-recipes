@@ -85,4 +85,4 @@ Equations:
 (val = 729)	73 = 72 + 45
 (val = 1024)	74 = 73 + 34
 
-mc001024 - gemforce v2.0.0 - table_mgcexact
+mc0001024 - gemforce v2.0.0 - table_mgcexact

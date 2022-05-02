@@ -12,7 +12,7 @@ TABLE_FILES="${TABLE_DIR}/${table}"
 
 name_move() {
 	gsize=$(< tmp sed -n "${2}p" | tr -dc '0-9')
-	filename=mc$(printf "%0.6d" ${gsize})
+	filename=mc$(printf "%0.7d" ${gsize})
 	echo "$filename - gemforce ${GEMFORCE_VER} - ${TABLES}" >> $1
 	mv $1 "${FOLDER}/$filename.txt"
 }

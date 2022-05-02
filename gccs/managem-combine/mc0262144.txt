@@ -337,4 +337,4 @@ Equations:
 (val = 184239)	326 = 325 + 249
 (val = 262144)	327 = 326 + 193
 
-mc262144 - gemforce v2.0.0 - table_mgcomb
+mc0262144 - gemforce v2.0.0 - table_mgcomb

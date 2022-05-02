@@ -102,4 +102,4 @@ Equations:
 (val = 2908)	88 = 87 + 60
 (val = 4096)	89 = 88 + 61
 
-mc004096 - gemforce v2.0.0 - table_mgcomb
+mc0004096 - gemforce v2.0.0 - table_mgcomb

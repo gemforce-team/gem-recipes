@@ -875,4 +875,4 @@ Equations:
 (val = 369266)	864 = 863 + 593
 (val = 524288)	865 = 864 + 466
 
-mc524288 - gemforce v2.0.0 - table_mgcomb
+mc0524288 - gemforce v2.0.0 - table_mgcomb

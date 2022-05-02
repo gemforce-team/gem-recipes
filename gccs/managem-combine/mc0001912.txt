@@ -78,4 +78,4 @@ Equations:
 (val = 1368)	64 = 63 + 40
 (val = 1912)	65 = 64 + 41
 
-mc001912 - gemforce v2.0.0 - table_mgcexact
+mc0001912 - gemforce v2.0.0 - table_mgcexact

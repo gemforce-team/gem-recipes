@@ -440,4 +440,4 @@ Equations:
 (val = 92662)	429 = 428 + 332
 (val = 131072)	430 = 429 + 301
 
-mc131072 - gemforce v2.0.0 - table_mgcomb
+mc0131072 - gemforce v2.0.0 - table_mgcomb

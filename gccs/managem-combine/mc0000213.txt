@@ -44,4 +44,4 @@ Equations:
 (val = 151)	30 = 29 + 17
 (val = 213)	31 = 30 + 18
 
-mc000213 - gemforce v2.0.0 - table_mgcexact
+mc0000213 - gemforce v2.0.0 - table_mgcexact

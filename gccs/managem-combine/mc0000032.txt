@@ -27,4 +27,4 @@ Equations:
 (val = 22)	13 = 12 +  5
 (val = 32)	14 = 13 +  6
 
-mc000032 - gemforce v2.0.0 - table_mgcexact
+mc0000032 - gemforce v2.0.0 - table_mgcexact

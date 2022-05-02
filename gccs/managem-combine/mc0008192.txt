@@ -116,4 +116,4 @@ Equations:
 (val = 5827)	105 = 104 + 70
 (val = 8192)	106 = 105 + 71
 
-mc008192 - gemforce v2.0.0 - table_mgcomb
+mc0008192 - gemforce v2.0.0 - table_mgcomb

@@ -41,4 +41,4 @@ Equations:
 (val = 87)	27 = 26 + 19
 (val = 128)	28 = 27 + 15
 
-mc000128 - gemforce v2.0.0 - table_mgcexact
+mc0000128 - gemforce v2.0.0 - table_mgcexact

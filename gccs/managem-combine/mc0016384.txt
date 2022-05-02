@@ -228,4 +228,4 @@ Equations:
 (val = 11682)	217 = 216 + 163
 (val = 16384)	218 = 217 + 141
 
-mc016384 - gemforce v2.0.0 - table_mgcomb
+mc0016384 - gemforce v2.0.0 - table_mgcomb

@@ -379,4 +379,4 @@ Equations:
 (val = 46480)	368 = 367 + 207
 (val = 65536)	369 = 368 + 119
 
-mc065536 - gemforce v2.0.0 - table_mgcomb
+mc0065536 - gemforce v2.0.0 - table_mgcomb

@@ -106,4 +106,4 @@ Equations:
 (val = 1466)	94 = 93 + 60
 (val = 2048)	95 = 94 + 57
 
-mc002048 - gemforce v2.0.0 - table_mgcexact
+mc0002048 - gemforce v2.0.0 - table_mgcexact

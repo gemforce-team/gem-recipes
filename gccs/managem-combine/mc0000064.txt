@@ -32,4 +32,4 @@ Equations:
 (val = 44)	18 = 17 +  9
 (val = 64)	19 = 18 + 10
 
-mc000064 - gemforce v2.0.0 - table_mgcexact
+mc0000064 - gemforce v2.0.0 - table_mgcexact
