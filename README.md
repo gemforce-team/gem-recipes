@@ -10,7 +10,7 @@ Optimal gem recipes for [Gemcraft 2: Chasing Shadows](https://store.steampowered
 * **[Link to the GCCS combiner bot (wGemCombiner)](https://github.com/gemforce-team/wGemCombiner/#readme)**
 * **[Link to the GCFW combiner mod (Gemsmith)](https://github.com/gemforce-team/gemsmith/#readme)**
 * [Results naming convention](#results-naming-convention)  
-* [Assumptions on skils and layout](#assumptions-on-skills-and-layout)  
+* [Assumptions on skills and layout](#assumptions-on-skills-and-layout)  
 * [Parenthesis convention](#parenthesis-convention)  
 
 ### Results naming convention
@@ -63,7 +63,7 @@ To accurately estimate the effect of amps it's also needed to know some skills v
 * Amplifiers:  assumed at  `60` for GCCS, `200` for GCFW - it matters quite a lot  
 * True Colors: assumed at `120` for GCCS, not needed in GCFW - it matters nearly nothing
 
-For GCCS managems the assembly power changes by over 10% across the reasonable amps skill levels.
+For GCCS managems the assembly power changes by around 10% across the reasonable amps skill levels.
 Therefore the best known spec (currently `2048`) is also given in A120 and A240 versions,
 for use by players whose amp skills is closer to such values.
 
