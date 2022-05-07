@@ -7,12 +7,12 @@ sup=$2
 table1=$3
 table2=table_leech
 
-#QA=2
-#GA=2.5
-QA=6
-GA=1
+QA=2
+GA=2.5
+#QA=6
+#GA=1
 TC=120
-AS=60
+AS=${4:-60} # 60 if unset
 
 FOLDER=gccs/managem-amps
 TABLES="${table1},${table2}"
@@ -22,6 +22,9 @@ name_move() {
 	gsize=$(< tmp sed -n '4p' | tr -dc '0-9')
 	asize=$(< tmp sed -n '11p' | tr -dc '0-9')
 	filename=ma$(printf "%0.4d" ${gsize})-${asize}
+	if [[ $AS != 60 ]]; then
+		filename+="-A${AS}"
+	fi
 	echo "$filename - AMPS${QA}-${GA} TC${TC} A${AS} - gemforce ${GEMFORCE_VER} - ${TABLES}" >> $1
 	mv $1 "${FOLDER}/$filename.txt"
 }
