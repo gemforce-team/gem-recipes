@@ -203,4 +203,4 @@ Equations:
 (val = 10144)	194 = 193 + 162
 (val = 16384)	195 = 194 + 117
 
-cc0016384 - gemforce v2.0.0 - table_critcomb
+cc0016384 - gemforce v2.1.0 - table_critcomb

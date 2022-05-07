@@ -28,4 +28,4 @@ Equations:
 (val = 30)	14 = 13 +  7
 (val = 48)	15 = 14 +  8
 
-cc0000048 - gemforce v2.0.0 - table_crit
+cc0000048 - gemforce v2.1.0 - table_crit

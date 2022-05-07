@@ -139,4 +139,4 @@ Equations:
 (val = 14419)	128 = 127 + 83
 (val = 22036)	129 = 128 + 84
 
-cc0022036 - gemforce v2.0.0 - table_critcomb
+cc0022036 - gemforce v2.1.0 - table_critcomb

@@ -104,4 +104,4 @@ Equations:
 (val = 1323)	90 = 89 + 70
 (val = 2048)	91 = 90 + 57
 
-cc0002048 - gemforce v2.0.0 - table_critcomb
+cc0002048 - gemforce v2.1.0 - table_critcomb

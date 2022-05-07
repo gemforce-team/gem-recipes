@@ -16,4 +16,4 @@ Equations:
 (val = 6)	 4 =  3 +  1
 (val = 8)	 5 =  4 +  1
 
-cc0000008 - gemforce v2.0.0 - table_crit
+cc0000008 - gemforce v2.1.0 - table_crit

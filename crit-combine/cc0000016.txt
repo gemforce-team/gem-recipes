@@ -19,4 +19,4 @@ Equations:
 (val = 10)	 7 =  6 +  2
 (val = 16)	 8 =  7 +  4
 
-cc0000016 - gemforce v2.0.0 - table_crit
+cc0000016 - gemforce v2.1.0 - table_crit

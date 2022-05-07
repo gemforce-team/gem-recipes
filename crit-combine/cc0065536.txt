@@ -256,4 +256,4 @@ Equations:
 (val = 41491)	247 = 246 + 169
 (val = 65536)	248 = 247 + 134
 
-cc0065536 - gemforce v2.0.0 - table_critcomb
+cc0065536 - gemforce v2.1.0 - table_critcomb

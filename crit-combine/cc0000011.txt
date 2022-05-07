@@ -20,4 +20,4 @@ Equations:
 (val = 7)	 6 =  5 +  1
 (val = 11)	 7 =  6 +  2
 
-cc0000011 - gemforce v2.0.0 - table_crit
+cc0000011 - gemforce v2.1.0 - table_crit

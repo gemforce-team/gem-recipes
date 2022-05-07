@@ -38,4 +38,4 @@ Equations:
 (val = 83)	26 = 25 + 12
 (val = 128)	27 = 26 + 13
 
-cc0000128 - gemforce v2.0.0 - table_crit
+cc0000128 - gemforce v2.1.0 - table_crit

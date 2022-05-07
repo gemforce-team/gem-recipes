@@ -47,4 +47,4 @@ Equations:
 (val = 166)	35 = 34 + 25
 (val = 256)	36 = 35 + 18
 
-cc0000256 - gemforce v2.0.0 - table_crit
+cc0000256 - gemforce v2.1.0 - table_crit

@@ -798,4 +798,4 @@ Equations:
 (val = 173325)	789 = 788 + 378
 (val = 262144)	790 = 789 + 358
 
-cc0262144 - gemforce v2.0.0 - table_critcomb
+cc0262144 - gemforce v2.1.0 - table_critcomb

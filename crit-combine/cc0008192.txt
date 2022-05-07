@@ -167,4 +167,4 @@ Equations:
 (val = 5226)	156 = 155 + 109
 (val = 8192)	157 = 156 + 89
 
-cc0008192 - gemforce v2.0.0 - table_critcomb
+cc0008192 - gemforce v2.1.0 - table_critcomb

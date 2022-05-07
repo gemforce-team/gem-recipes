@@ -39,4 +39,4 @@ Equations:
 (val = 148)	25 = 24 + 17
 (val = 230)	26 = 25 + 18
 
-cc0000230 - gemforce v2.0.0 - table_crit
+cc0000230 - gemforce v2.1.0 - table_crit

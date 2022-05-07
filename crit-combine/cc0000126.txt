@@ -36,4 +36,4 @@ Equations:
 (val = 81)	22 = 21 + 12
 (val = 126)	23 = 22 + 13
 
-cc0000126 - gemforce v2.0.0 - table_crit
+cc0000126 - gemforce v2.1.0 - table_crit

@@ -72,4 +72,4 @@ Equations:
 (val = 657)	58 = 57 + 45
 (val = 1024)	59 = 58 + 39
 
-cc0001024 - gemforce v2.0.0 - table_crit
+cc0001024 - gemforce v2.1.0 - table_crit

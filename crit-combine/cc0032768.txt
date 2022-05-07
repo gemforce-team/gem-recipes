@@ -272,4 +272,4 @@ Equations:
 (val = 20800)	263 = 262 + 185
 (val = 32768)	264 = 263 + 126
 
-cc0032768 - gemforce v2.0.0 - table_critcomb
+cc0032768 - gemforce v2.1.0 - table_critcomb

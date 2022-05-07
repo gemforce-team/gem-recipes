@@ -31,4 +31,4 @@ Equations:
 (val = 42)	19 = 18 + 12
 (val = 64)	20 = 19 + 10
 
-cc0000064 - gemforce v2.0.0 - table_crit
+cc0000064 - gemforce v2.1.0 - table_crit

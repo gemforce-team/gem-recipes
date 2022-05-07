@@ -165,4 +165,4 @@ Equations:
 (val = 7044)	154 = 153 + 90
 (val = 10809)	155 = 154 + 91
 
-cc0010809 - gemforce v2.0.0 - table_critcomb
+cc0010809 - gemforce v2.1.0 - table_critcomb

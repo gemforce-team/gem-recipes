@@ -345,4 +345,4 @@ Equations:
 (val = 82309)	336 = 335 + 210
 (val = 131072)	337 = 336 + 170
 
-cc0131072 - gemforce v2.0.0 - table_critcomb
+cc0131072 - gemforce v2.1.0 - table_critcomb
