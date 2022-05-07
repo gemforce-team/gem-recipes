@@ -1,20 +1,36 @@
 #!/bin/bash
-inf=$1
-sup=$2
-file=$3
 
-for ((i=inf; i<=sup; i*=2))
-do
-	j=$((i/2))
-	echo "$i - $j"
-	filename="ko"$(printf "%0.4d-%d" $i $j)
-	desc="$filename - N6 TC120 A60 - gemforce $(git describe --tags | cut -f1 -d "-") - $file"",table_crit"
-	if [ $i -le 128 ]
-	then
-		bin/kgquery-omnia -rqpte  -f "$file" "$i" "$j" | tail -n +46 > results/$filename".txt"
-		echo "$desc" >> results/$filename".txt"
-	else
-		bin/kgquery-omnia -rqpe  -f "$file" "$i" "$j" | tail -n +46 > results/$filename".txt"
-		echo "$desc" >> results/$filename".txt"
-	fi
-done
+source "$(dirname $0)/base.sh"
+
+s=$1
+c=$2
+table1=$3
+table2=$4
+table3=$5
+
+#QA=2
+#GA=2.5
+QA=8
+GA=1
+TC=120
+AS=${6:-60} # 60 if unset
+
+FOLDER=gccs/killgem-omnia
+TABLES="${table1},${table2},${table3}"
+TABLE_FILES="${TABLE_DIR}/${table1},${TABLE_DIR}/${table2},${TABLE_DIR}/${table3}"
+
+echo "$s - $c"
+filename="ko"$(printf "%0.4d-%0.6d" $s $c)
+if [[ $AS != 60 ]]; then
+	filename+="-A${AS}"
+fi
+desc="$filename - AMPS${QA}-${GA} TC${TC} A${AS} - gemforce ${GEMFORCE_VER} - ${TABLES}"
+
+if [ $s -le 4096 ] && [ $c -le 4096 ]
+then
+	${GEMFORCE_DIR}/bin/kgquery-omnia -rqpe -Q$QA -G$GA -T$TC -A$AS -f "${TABLE_FILES}" "$s" "$c" | tail -n +46 > ${FOLDER}/$filename".txt"
+	echo "$desc" >> ${FOLDER}/$filename".txt"
+else
+	${GEMFORCE_DIR}/bin/kgquery-omnia -rqe  -Q$QA -G$GA -T$TC -A$AS -f "${TABLE_FILES}" "$s" "$c" | tail -n +46 > ${FOLDER}/$filename".txt"
+	echo "$desc" >> ${FOLDER}/$filename".txt"
+fi
