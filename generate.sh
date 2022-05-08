@@ -18,6 +18,8 @@ ka() {
     scripts/ka.sh 256 256 table_mgsexact
     scripts/ka.sh 512 512 table_kgssemi
     scripts/ka.sh 1024 2048 table_mgsappr
+    scripts/ka.sh 2048 2048 table_mgsappr 120
+    scripts/ka.sh 2048 2048 table_mgsappr 240
 }
 
 kc() {

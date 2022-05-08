@@ -28,9 +28,9 @@ desc="$filename - AMPS${QA}-${GA} TC${TC} A${AS} - gemforce ${GEMFORCE_VER} - ${
 
 if [ $s -le 4096 ] && [ $c -le 4096 ]
 then
-	${GEMFORCE_DIR}/bin/kgquery-omnia -rqpe -Q$QA -G$GA -T$TC -A$AS -f "${TABLE_FILES}" "$s" "$c" | tail -n +46 > ${FOLDER}/$filename".txt"
+	${GEMFORCE_DIR}/bin/kgquery-omnia -rqpe -Q$QA -G$GA -T$TC -A$AS -R0.2 -f "${TABLE_FILES}" "$s" "$c" | tail -n +46 > ${FOLDER}/$filename".txt"
 	echo "$desc" >> ${FOLDER}/$filename".txt"
 else
-	${GEMFORCE_DIR}/bin/kgquery-omnia -rqe  -Q$QA -G$GA -T$TC -A$AS -f "${TABLE_FILES}" "$s" "$c" | tail -n +46 > ${FOLDER}/$filename".txt"
+	${GEMFORCE_DIR}/bin/kgquery-omnia -rqe  -Q$QA -G$GA -T$TC -A$AS -R0.2 -f "${TABLE_FILES}" "$s" "$c" | tail -n +46 > ${FOLDER}/$filename".txt"
 	echo "$desc" >> ${FOLDER}/$filename".txt"
 fi

@@ -12,7 +12,7 @@ table2=table_crit
 QA=8
 GA=1
 TC=120
-AS=60
+AS=${4:-60} # 60 if unset
 
 FOLDER=gccs/killgem-amps
 TABLES="${table1},${table2}"
@@ -22,6 +22,9 @@ name_move() {
 	gsize=$(< tmp sed -n '4p' | tr -dc '0-9')
 	asize=$(< tmp sed -n '12p' | tr -dc '0-9')
 	filename=ka$(printf "%0.4d" ${gsize})-${asize}
+	if [[ $AS != 60 ]]; then
+		filename+="-A${AS}"
+	fi
 	echo "$filename - AMPS${QA}-${GA} TC${TC} A${AS} - gemforce ${GEMFORCE_VER} - ${TABLES}" >> $1
 	mv $1 "${FOLDER}/$filename.txt"
 }
@@ -30,8 +33,8 @@ for ((i=inf; i<=sup; i*=2))
 do
 	echo $i
 	
-	${GEMFORCE_DIR}/bin/kgquery-amps -rqpe -Q$QA -G$GA -T$TC -A$AS -f "${TABLE_FILES}" "$i" | tail -n +29 > tmp
+	${GEMFORCE_DIR}/bin/kgquery-amps -rqpe -Q$QA -G$GA -T$TC -A$AS -R0.2 -f "${TABLE_FILES}" "$i" | tail -n +29 > tmp
 	name_move tmp
-	${GEMFORCE_DIR}/bin/kgquery-amps -rqpeu -Q$QA -G$GA -T$TC -A$AS -f "${TABLE_FILES}" "$i" | tail -n +51 > tmp
+	${GEMFORCE_DIR}/bin/kgquery-amps -rqpeu -Q$QA -G$GA -T$TC -A$AS -R0.2 -f "${TABLE_FILES}" "$i" | tail -n +51 > tmp
 	name_move tmp
 done
